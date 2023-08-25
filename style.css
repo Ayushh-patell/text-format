@@ -1,0 +1,73 @@
+:root {
+    --main-bg-clr: white;
+    --main-bg-clr2: white;
+    --main-bg-clr3: rgb(236, 236, 236);
+    --main-bg-clr4: #f1f1f1;
+    --main-text-clr: black;
+}
+
+.text-clr {
+    color: var(--main-text-clr) !important;
+}
+
+a {
+    color: var(--main-text-clr) !important;
+}
+
+label {
+    color: var(--main-text-clr) !important;
+}
+
+.clr-mode {
+    background-color: var(--main-bg-clr) !important;
+    color: var(--main-text-clr) !important;
+}
+
+.clr-mode-2 {
+    background-color: var(--main-bg-clr2) !important;
+    color: var(--main-text-clr) !important;
+}
+
+.clr-mode-3 {
+    background-color: var(--main-bg-clr3) !important;
+    color: var(--main-text-clr) !important;
+}
+
+#main_cont button {
+    background-color: var(--main-bg-clr4) !important;
+    color: var(--main-text-clr) !important;
+}
+
+#main_cont button:hover {
+    box-shadow: 0 0 5px var(--main-text-clr);
+}
+
+.dropdown-menu {
+    background-color: var(--main-bg-clr);
+    height: 200px;
+    overflow: scroll;
+}
+
+.translate-select {
+    width: 100px;
+    flex-grow: 0 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #bbb;
+}
+
+.form-label {
+    margin-left: 0.25rem;
+}
+
+#output-content {
+    resize: none;
+}
+
+.format-btn {
+    width: 122px;
+}
+#spinner_load {
+    display: none;
+}
